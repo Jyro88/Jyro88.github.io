@@ -134,16 +134,18 @@ body {
 
 .iceberg-container {
     position: absolute;
-    top: 10%;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    z-index: 2;
 }
 
 .iceberg-image {
-    width: 300px;
-    max-width: 60%;
-    z-index: 1;
+    width: 700px;
+    max-width: 80%;
+    z-index: 2;
+    animation: float 4s ease-in-out infinite;
 }
 
 .skills-title {
@@ -154,7 +156,7 @@ body {
     font-size: 36px;
     color: #003B5B;
     font-weight: bold;
-    z-index: 2;
+    z-index: 3;
 }
 
 @keyframes float {
