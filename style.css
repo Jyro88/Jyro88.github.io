@@ -64,6 +64,7 @@ body {
     padding: 40px 0;
     background-color: #77BCD9;
     text-align: center;
+    scroll-margin-top: 150px;
 }
 
 #sky .title {
@@ -131,8 +132,6 @@ body {
     background-color: #04619C;
     overflow: hidden;
 }
-
-/*#9990DE*/
 
 .iceberg-container {
     position: absolute;
@@ -215,6 +214,7 @@ body {
     background-color: #04619C;
     color: white;
     padding: 40px 0;
+    scroll-margin-top: 150px;
 }
 
 #projects-header h2 {
